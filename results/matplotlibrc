@@ -1,0 +1,29 @@
+# Isaac Joffe, 2026
+
+
+# Use LaTeX for text rendering
+text.usetex : True
+font.family : serif
+font.serif  : cm
+
+# Set standard font sizes for all figures
+legend.fontsize : 6
+xtick.labelsize : 8
+ytick.labelsize : 8
+axes.labelsize  : 10
+axes.titlesize  : 10
+
+# Set standard line widths
+axes.linewidth    : 0.5
+patch.linewidth   : 0.5
+xtick.major.width : 0.5
+ytick.major.width : 0.5
+lines.linewidth   : 1
+
+# Set standard figure saving settings
+savefig.dpi: 1200
+savefig.bbox: tight
+savefig.format: pdf
+
+# Set default colour scheme to match ARC
+axes.prop_cycle: cycler("color", ["#0074D9", "#FF4136", "#2ECC40", "#FF851B", "#7FDBFF", "#F012BE", "#870C25", "#FFDC00"])
