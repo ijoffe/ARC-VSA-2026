@@ -1,0 +1,9 @@
+data/100N_0S.json filter=lfs diff=lfs merge=lfs -text
+data/5000N_0S.json filter=lfs diff=lfs merge=lfs -text
+data/1000N_0S.json filter=lfs diff=lfs merge=lfs -text
+data/10N_0S.json filter=lfs diff=lfs merge=lfs -text
+data/1N_0S.json filter=lfs diff=lfs merge=lfs -text
+data/500N_0S.json filter=lfs diff=lfs merge=lfs -text
+data/50N_0S.json filter=lfs diff=lfs merge=lfs -text
+data/5N_0S.json filter=lfs diff=lfs merge=lfs -text
+data/10000N_0S.json filter=lfs diff=lfs merge=lfs -text
