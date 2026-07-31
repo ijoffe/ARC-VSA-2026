@@ -21,9 +21,9 @@ ytick.major.width : 0.5
 lines.linewidth   : 1
 
 # Set standard figure saving settings
-savefig.dpi: 1200
-savefig.bbox: tight
-savefig.format: pdf
+savefig.dpi    : 1200
+savefig.bbox   : tight
+savefig.format : pdf
 
 # Set default colour scheme to match ARC
-axes.prop_cycle: cycler("color", ["#0074D9", "#FF4136", "#2ECC40", "#FF851B", "#7FDBFF", "#F012BE", "#870C25", "#FFDC00"])
+axes.prop_cycle : cycler("color", ["#0074D9", "#FF4136", "#2ECC40", "#FF851B", "#7FDBFF", "#F012BE", "#870C25", "#FFDC00"])

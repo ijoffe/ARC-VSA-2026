@@ -1,0 +1,15 @@
+\centering
+\fbox{
+    \begin{minipage}{0.9\linewidth}
+        \vspace{-12pt}
+        \begin{equation*}
+            \begin{aligned}
+                & 1. ~~ \inputobjects \gets \myprimitive{TwoConnected-} \\
+                & ~~ ~~ ~~~~ \myprimitive{Hypothesis} ( \inputgrid ) \\
+                & 2. ~~ \outputobjects \gets \myprimitive{Crop} ( \myprimitive{Filter} ( \inputobjects , \myprimitive{Has-} \\
+                & ~~ ~~ ~~~~ \myprimitive{HorizontalSymmetry} ( \inputobjects ) ) ) \\
+                & 3. ~~ \outputgrid \gets \Call{DecodeObjects}{ \outputobjects } ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \\
+            \end{aligned}
+        \end{equation*}
+    \end{minipage}
+}

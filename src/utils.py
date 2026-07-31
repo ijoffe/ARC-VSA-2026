@@ -25,7 +25,7 @@ sys.path.append("..")
 from inc.sspspace import sspspace
 
 # Setup directories
-FIGURES_PATH = "../paper/media/"
+FIGURES_PATH = "../figures/"
 DATA_PATH = "../data/"
 MODELS_PATH = "../models/"
 TASKS_PATH = "../tasks/"

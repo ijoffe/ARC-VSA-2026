@@ -181,7 +181,8 @@ plot_task_solving_efficiency(
     },
     "result3_engineered_10k",
 )
-plot_task_solving_efficiency({
+plot_task_solving_efficiency(
+    {
         "Best Eng.~Evo.~": data_1k["Hybrid GOAT Evolution Ensemble - Project-Score-Mean - Engineered SSP"],
         "Best Enum.~": data_1k["Hybrid-VSA Enumeration Ensemble - Max-Project-Score - Random"],
         "Naive~": data_1k["DeepCoder-Style Enumeration - Naive"],
@@ -191,7 +192,8 @@ plot_task_solving_efficiency({
     },
     "result3_learned_1k",
 )
-plot_task_solving_efficiency({
+plot_task_solving_efficiency(
+    {
         "Best Eng.~Evo.~": data_10k["Hybrid GOAT Evolution Ensemble - Project-Score-Mean - Engineered SSP"],
         "Best Enum.~": data_10k["Hybrid-VSA Enumeration Ensemble - Max-Project-Score - Random"],
         "Naive~": data_10k["DeepCoder-Style Enumeration - Naive"],
